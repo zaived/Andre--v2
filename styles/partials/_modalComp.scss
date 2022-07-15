@@ -1,0 +1,71 @@
+.modal-wrapper {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -65vh) !important;
+  background-color: #eae4dd;
+  border: 2px solid #000;
+  z-index: 1000;
+  width: 80vh;
+  height: 80vh;
+  color: #000;
+  border-radius: 2%;
+  .exit-btn {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    h1 {
+      display: inline-block;
+      animation: blink ease infinite;
+      animation-duration: 2s;
+      cursor: pointer;
+    }
+  }
+  .bio {
+    padding: 0px 10%;
+    margin-top: 5%;
+    font-family: "Times New Roman", Times, serif;
+    p {
+      line-height: 2em;
+    }
+  }
+}
+
+.red {
+  a {
+    text-decoration: none;
+    color: red;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      background-color: red;
+      color: white;
+    }
+  }
+}
+
+// .backdrop {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+//   background: #000000e1;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-height: 1064px) {
+  .modal-wrapper .bio p {
+    line-height: 2em;
+    font-size: 13px;
+  }
+}

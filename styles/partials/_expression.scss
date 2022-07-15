@@ -1,0 +1,40 @@
+.e-header {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  .text-h {
+    text-align: center;
+  }
+}
+
+.expression-title {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.expression-gallery {
+  margin-top: 2%;
+  column-count: 4;
+  column-gap: 1.5rem;
+  justify-items: center;
+  margin-bottom: 10%;
+  padding: 0% 20%;
+}
+
+.card {
+  padding-bottom: 5%;
+  cursor: pointer;
+  .grid-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+}
