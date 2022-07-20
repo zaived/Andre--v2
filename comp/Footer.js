@@ -3,14 +3,27 @@ const Footer = () => {
     <div className="f-container">
       <div className="scroll-right">
         <p>
-          Creative Director - Artist - Hockey Player Creative Director - Artist
-          - Hockey Player Creative Director - Artist - Hockey Player Creative
-          Director - Artist - Hockey Player Creative Director - Artist - Hockey
-          Player Creative Director - Artist - Hockey Player Creative Director -
-          Artist - Hockey Player Creative Director - Artist - Hockey Player
-          Creative Director - Artist - Hockey Player Creative Director - Artist
-          - Hockey Player Creative Director - Artist - Hockey Player Creative
-          Director - Artist - Hockey Player
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE” “DIRECTION"
+          “EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE”
+          “DIRECTION"“EXECUTIVE” “CREATIVE” “DIRECTION” “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION" “EXECUTIVE” “CREATIVE” “DIRECTION" “EXECUTIVE” “CREATIVE”
+          “DIRECTION"
         </p>
       </div>
     </div>

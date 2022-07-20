@@ -8,12 +8,7 @@ export default function Home() {
   return (
     <div>
       <div className="home-container">
-        <div className="home-text">
-          <h2>
-          &ldquo;At first, art imitates life. Then life will imitate art. Then life
-            will find its very existence from the arts.&rdquo; - Fyodor Dostoevsky
-          </h2>
-        </div>
+        <div className="home-text"></div>
       </div>
       <HomeSlider />
     </div>

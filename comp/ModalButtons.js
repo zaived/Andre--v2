@@ -1,12 +1,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Person from "../public/assets/icons/eoman.PNG";
-import Cart from "../public/assets/icons/cart.PNG";
-import Brain from "../public/assets/icons/brain.PNG";
-import Heart from "../public/assets/icons/heart.PNG";
-import Hands from "../public/assets/icons/hands.PNG";
-import Phone from "../public/assets/icons/phone.png";
+import Cart from "../public/assets/icons/cart.gif";
+import Phone from "../public/assets/icons/phone.gif";
+import Guy from "../public/assets/icons/guy.gif";
 
 import AboutModal from "./Modals/AboutModal";
 import ContactModal from "./Modals/ContactModal";
@@ -74,35 +71,35 @@ const ModalButtons = () => {
         }}
         className="item"
       >
-        <Image src={Person} alt="GuySign" width={200} height={200} />
-        <h3>STORY</h3>
+        <Image src={Guy} alt="GuySign" width={200} height={200} />
+        <h3>ABOUT</h3>
       </motion.div>
 
-      <div className="item">
+      {/* <div className="item">
         <Link href="/ArtisticExpression">
           <a>
             <Image src={Hands} alt="GuySign" width={200} height={200} />
             <h3>EXPRESSION</h3>
           </a>
         </Link>
-      </div>
-      <div className="item">
+      </div> */}
+      {/* <div className="item">
         <Link href="/AdvertisingCampaigns">
           <a>
             <Image src={Brain} alt="GuySign" width={200} height={200} />
             <h3>ADVERTISING</h3>
           </a>
         </Link>
-      </div>
+      </div> */}
 
-      <div className="item">
+      {/* <div className="item">
         <Link href="/Diversity">
           <a>
             <Image src={Heart} alt="GuySign" width={200} height={200} />
             <h3>DIVERSITY</h3>
           </a>
         </Link>
-      </div>
+      </div> */}
 
       <div className="item">
         <Link href="/Shop">
