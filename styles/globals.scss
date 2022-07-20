@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: #eae4dd;
+  background-color: #fff;
   font-family: "canniaregular", sans-serif;
 }
 
@@ -75,7 +75,7 @@ a {
   }
 }
 
-@media (max-width: 1030px ), (max-height: 600px) {
+@media (max-width: 1030px), (max-height: 600px) {
   .layout-content {
     display: none;
   }
