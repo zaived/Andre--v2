@@ -19,11 +19,6 @@ const ModalButtons = () => {
 
   var content = [
     {
-      id: "about",
-      modalContent: <AboutModal />,
-    },
-
-    {
       id: "contact",
       modalContent: <ContactModal />,
     },
@@ -64,15 +59,13 @@ const ModalButtons = () => {
 
   return (
     <div className="m-container">
-      <motion.div
-        onClick={() => {
-          setCurrentModalId("about");
-          open();
-        }}
-        className="item"
-      >
-        <Image src={Guy} alt="GuySign" width={200} height={200} />
-        <h3>ABOUT</h3>
+      <motion.div className="item">
+        <Link href="/About">
+          <a>
+            <Image src={Guy} alt="GuySign" width={200} height={200} />
+            <h3>ABOUT</h3>
+          </a>
+        </Link>
       </motion.div>
 
       {/* <div className="item">
