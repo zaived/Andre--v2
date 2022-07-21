@@ -37,7 +37,7 @@ const ContactModal = ({ handleClose }) => {
           <h1 onClick={handleClose}>EXIT</h1>
         </div>
         <div className="contact-text">
-          <h1>a.gray.scarlett@gmail.com</h1>
+          <h1>andrewritescopy@gmail.com</h1>
         </div>
       </motion.div>
     </Backdrop>
