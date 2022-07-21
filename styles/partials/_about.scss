@@ -1,3 +1,23 @@
 .about-container {
   margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  display: flex;
+}
+
+.sub {
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.list li {
+  list-style-type: none;
+}
+
+.bio-container {
+  margin-top: 5%;
 }
