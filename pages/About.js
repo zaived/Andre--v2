@@ -1,8 +1,12 @@
+import Sf from "../public/sf.jpeg";
 import Image from "next/image";
 
 export default function About() {
   return (
     <div className="about-container">
+      <div className="about-img">
+        <Image src={Sf} />
+      </div>
       <div className="about-content">
         <div className="client-container">
           <div className="sub">
