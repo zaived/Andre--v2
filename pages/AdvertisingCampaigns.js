@@ -20,9 +20,13 @@ export default function AdvertisingCampaigns({ sProjects }) {
   return (
     <div className="ad-wrapper">
       <div className="ad-cards">
-        {sProjects.sort((a, b) => {return b.fields.importance - a.fields.importance;}).map((sProjects) => (
-          <ProjectCard key={sProjects.sys.id} sProjects={sProjects} />
-        ))}
+        {sProjects
+          .sort((a, b) => {
+            return b.fields.importance - a.fields.importance;
+          })
+          .map((sProjects) => (
+            <ProjectCard key={sProjects.sys.id} sProjects={sProjects} />
+          ))}
       </div>
     </div>
   );
